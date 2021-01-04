@@ -1,3 +1,41 @@
 body {
-    background-color: brown;
+  background-color: #2d64b5;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg");
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me {
+  width: 40%;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Oswald', sans-serif;
+}
+
+.about-me > img {
+  height: 100%;
+}
+.about-me > .text {
+  width: 100%;
+  padding: 10px 20px;
+}
+.about-me .name {
+  font-size: 16px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+ .about-me .desc{
+  margin-block-start: 5px;
+  margin-block-end: 0em;
+ }
+
